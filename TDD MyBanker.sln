@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyBanker Library", "MyBanker Library\MyBanker Library.csproj", "{313F7440-9494-4723-AD3B-C2B1129C80A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyBanker Library.Tests", "MyBanker Library.Tests\MyBanker Library.Tests.csproj", "{575B572E-38B5-4648-A2CC-CF99778C6627}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{313F7440-9494-4723-AD3B-C2B1129C80A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{313F7440-9494-4723-AD3B-C2B1129C80A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{313F7440-9494-4723-AD3B-C2B1129C80A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{313F7440-9494-4723-AD3B-C2B1129C80A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{575B572E-38B5-4648-A2CC-CF99778C6627}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{575B572E-38B5-4648-A2CC-CF99778C6627}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{575B572E-38B5-4648-A2CC-CF99778C6627}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{575B572E-38B5-4648-A2CC-CF99778C6627}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
