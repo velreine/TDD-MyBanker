@@ -13,6 +13,7 @@ namespace MyBanker_Library.Abstracts
             AccountNumber = accountNumber;
             Balance = balance;
             Owner = owner;
+
         }
         
         public virtual void Deposit(decimal money)

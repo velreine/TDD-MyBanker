@@ -23,7 +23,7 @@ namespace MyBanker_Library.Abstracts
 
         protected AbstractCard(IAccount account, DateTime expirationDateTime, string pinCode = null)
         {
-            this.Account = account;
+            this.Account = account ?? throw new ArgumentException("Account cannot be NULL!", "account");
             this.Expires = expirationDateTime;
             this.PinCode = pinCode ?? GenerateRandomPinCode();
             this.CardNumber = GenerateCardNumber();

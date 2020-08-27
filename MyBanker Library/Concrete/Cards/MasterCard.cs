@@ -80,12 +80,16 @@ namespace MyBanker_Library.Concrete.Cards
             StringBuilder sb = new StringBuilder();
 
             sb.AppendLine(this.GetType().ToString());
-            sb.AppendLine(Account.ToString());
+
+            if(Account != null)
+                sb.AppendLine(Account.ToString());
+
             sb.AppendLine($"CardNumber: {CardNumber}");
             sb.AppendLine($"Age Limit {this.AgeLimit}");
             sb.AppendLine($"Credit Limit: {this.CreditLimit}");
             sb.AppendLine($"Credit Use: {this.CreditUsage}");
             sb.AppendLine($"International card: {this.CanBeUsedInternationally}");
+
             sb.AppendLine($"Expires: {Expires.ToLocalTime().ToString(CultureInfo.CurrentCulture)}");
 
             return sb.ToString();

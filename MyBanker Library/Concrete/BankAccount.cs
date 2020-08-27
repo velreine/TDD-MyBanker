@@ -5,9 +5,12 @@ namespace MyBanker_Library.Concrete
 {
     public sealed class BankAccount : AbstractAccount
     {
-        public BankAccount(string accountNumber, IPerson owner) : base(accountNumber, 0 , owner)
+        public BankAccount(string accountNumber, ICustomer owner) : base(accountNumber, 0 , owner)
         {
-            
+            if(!owner.Accounts.Contains(this))
+            {
+                owner.Accounts.Add(this);
+            }
         }
 
         public override string ToString()
