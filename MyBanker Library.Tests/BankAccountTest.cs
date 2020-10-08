@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using Autofac.Extras.Moq;
 using MyBanker_Library.Concrete;
 using Xunit;
 
@@ -53,6 +54,8 @@ namespace MyBanker_Library.Tests
 
             Assert.Equal(expectedNewBalance, actualNewBalance);
         }
+
+
 
     }
 }
