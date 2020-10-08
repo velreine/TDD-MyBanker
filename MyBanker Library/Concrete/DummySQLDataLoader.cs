@@ -5,7 +5,6 @@ using MyBanker_Library.Interfaces;
 
 namespace MyBanker_Library.Concrete
 {
-
     public class DummySQLDataLoader : IDummySQLDataLoader
     {
 
